@@ -23,4 +23,9 @@ print "Hello,
 print 'Hello, World\n\n';
 
 
+$a = 10; 
+
+print "Value of a = $a\n\n"; 
+print 'Value of a = $a\n\n';
+
 
