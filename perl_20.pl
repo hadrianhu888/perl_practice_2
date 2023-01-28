@@ -35,8 +35,8 @@ my ($hours, $minutes, $seconds) = ($time =~ m/(\d+):(\d+):(\d+)/);
 @list = qw/food foosball subeo footnote terfoot canic footbridge/;
 
 foreach (@list) {
-    $first = $1 if /(foo.*?)/;
-    $last = $1 if /(foo.*)/;
-    }
+    $first = $list if /(foo.*?)/;
+    $last = $list if /(foo.*)/;
+}
 print "First: $first, Last: $last\n";
 
